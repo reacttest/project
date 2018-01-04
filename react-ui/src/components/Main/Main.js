@@ -7,7 +7,7 @@ import Groups from '../../pages/Groups/Groups';
 
 const Main = () => {
     return (
-        <div className="Main" style={{"height" : "100%", "marginTop" : "40px"}}>
+        <div className="Main" style={{"height" : "100%", "marginTop" : "0px"}}>
             <Switch>
                 <Route exact path='/' component={Home}/>
                 <Route path='/projects' component={Projects}/>
