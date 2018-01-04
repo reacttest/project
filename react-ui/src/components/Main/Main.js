@@ -10,8 +10,8 @@ const Main = () => {
         <div className="Main" style={{"height" : "100%", "marginTop" : "40px"}}>
             <Switch>
                 <Route exact path='/' component={Home}/>
-                <Route exact path='/projects' component={Projects}/>
-                <Route exact path='/groups' component={Groups}/>
+                <Route path='/projects' component={Projects}/>
+                <Route path='/groups' component={Groups}/>
             </Switch>
         </div>
     );

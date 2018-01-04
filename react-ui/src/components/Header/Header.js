@@ -9,7 +9,6 @@ const Header = () => (
             <Menu.Item as={Link} to="/projects">Projects</Menu.Item>
             <Menu.Item as={Link} to="/groups">Groups</Menu.Item>
         </Menu>
-
     </div>
 );
 
