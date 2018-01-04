@@ -1,0 +1,26 @@
+@import "../styles/common/variables";
+@import "../styles/common/mixins";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    display: block;
+    float: left;
+}
+
+.col-4 {
+    width: 33.333%;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
