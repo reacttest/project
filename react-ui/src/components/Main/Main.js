@@ -3,6 +3,7 @@ import './Main.css';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../../pages/Home/Home';
 import Projects from '../../pages/Projects/Projects';
+import ProjectDetails from '../../pages/Projects/ProjectDetails/ProjectDetails';
 import Groups from '../../pages/Groups/Groups';
 
 const Main = () => {
@@ -11,6 +12,7 @@ const Main = () => {
             <Switch>
                 <Route exact path='/' component={Home}/>
                 <Route path='/projects' component={Projects}/>
+                <Route path='/projects/:id' component={ProjectDetails}/>
                 <Route path='/groups' component={Groups}/>
             </Switch>
         </div>
