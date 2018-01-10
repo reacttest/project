@@ -5,6 +5,7 @@ import Home from '../../pages/Home/Home';
 import Projects from '../../pages/Projects/Projects';
 import ProjectDetails from '../../pages/Projects/ProjectDetails/ProjectDetails';
 import Groups from '../../pages/Groups/Groups';
+import Login from '../../pages/Login/Login';
 
 const Main = () => {
     return (
@@ -14,6 +15,7 @@ const Main = () => {
                 <Route path='/projects' component={Projects}/>
                 <Route path='/projects/:id' component={ProjectDetails}/>
                 <Route path='/groups' component={Groups}/>
+                <Route path='/login' component={Login}/>
             </Switch>
         </div>
     );

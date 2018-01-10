@@ -59,3 +59,7 @@ exports.register = function(req, res, next) {
 exports.view = function(req, res, next) {
     res.render('register');
 };
+
+exports.test = function (req, res, next) {
+    return res.status(200).json({ user: 'aaa' });
+};

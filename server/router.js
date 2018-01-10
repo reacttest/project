@@ -21,7 +21,8 @@ module.exports = function(app) {
 
     // Registration route
     authRoutes.post('/register', AuthenticationController.register);
-    authRoutes.get('/register', AuthenticationController.view);
+    // authRoutes.get('/register', AuthenticationController.view);
+    authRoutes.get('/test', AuthenticationController.test);
 
     // Login route
     // authRoutes.post('/login', requireLogin, AuthenticationController.login);
